@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-header {
+  height: 60px;
+}
+.app-pageContent {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+}
+.app-footer {
+  height: 60px;
+  background-color: brown;
+}
+.itemCardImage {
+  height: 230px !important;
+  object-fit: scale-down;
+}
